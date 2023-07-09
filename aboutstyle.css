@@ -23,15 +23,26 @@ a:hover{text-decoration: underline;
 }
 #light:hover{color: #3a86ff;}
 #bright:hover{color: #d62828;}
+.socials{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
 
 .box{
     border-bottom: 1px solid #888;
 } 
 
-#header{grid-area: top;}
-#content{grid-area: mid;
-text-align: center;}
-#footer{grid-area: bt;}
+#header{
+    grid-area: top;}
+#content{
+    grid-area: mid;
+    text-align: center;}
+#footer{
+    grid-area: bt;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
 #header{display: flex;
     justify-content: center;}

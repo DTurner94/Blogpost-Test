@@ -1,0 +1,68 @@
+@import url(home.css);
+@import url(blogstyle.css);
+@import url(aboutstyle.css);
+
+
+body{
+    background-color: #3b3b38;
+    background-image: url(images/Joysticks.jpg);
+    color: #FAF9F6;}
+
+a{text-decoration: none;
+    color: #0077b6;}
+a:hover{text-decoration: underline;
+    color: #a2d2ff;}
+
+ul{list-style: none;}
+
+#light:hover{color: #3a86ff;}
+#bright:hover{color: #d62828;}
+
+.navlist{
+    display: inline;
+    font-size: 30px;
+    margin: 0 15px;
+}
+
+button, input[type="button"] {
+	background: inherit;
+	color: #0077b6;
+	border: none;
+    border-radius: 10%;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.navbutton:hover{
+    text-decoration: underline;
+    color: #a2d2ff;
+}
+
+.navfooter{margin-right: 5px;}
+.socials{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#avatar{
+    width: 100px;
+    height: 100px;
+    object-position: 50%;
+}
+
+figure{
+    border: 1px solid #888;
+    border-radius: 10%;
+    width: 150px;
+    height: 125px;
+    margin: auto;
+    object-position: 50%;
+}
+figcaption {
+    color: #FAF9F6;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }

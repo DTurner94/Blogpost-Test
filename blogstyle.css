@@ -1,14 +1,4 @@
-
-body{
-    background-color: #191c22;
-    color: #FAF9F6;
-}
-a{text-decoration: none;
-    color: #0077b6;}
-a:hover{text-decoration: underline;
-    color: #a2d2ff;}
-ul{list-style: none;}
-.container{
+.bp-container{
     display: grid;
     grid-template-columns: repeat(1fr,6);
     grid-template-rows: 100px 600px auto;
@@ -30,73 +20,39 @@ ul{list-style: none;}
 #avatar{
     width: 100px;
     height: 100px;
-    object-position: 50%;
-}
-.navfooter{
-    margin-right: 5px;
-}
-.socials{
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-}
-.bio{
-    text-align: center;
-}
-#light:hover{color: #3a86ff;}
-#bright:hover{color: #d62828;}
-.box{
-    border-bottom: 1px solid #888;
-} 
-
-.navlist{
-    display: inline;
-    font-size: 30px;
-    margin: 0 15px;
 }
 
-button, input[type="button"] {
-	background: inherit;
-	color: #0077b6;
-	border: none;
-    border-radius: 10%;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-.navbutton:hover{
-    text-decoration: underline;
-color: #a2d2ff;
-}
+.bio{text-align: center;}
+.box{border-bottom: 1px solid #888;} 
 
 #remnant{
     background-color: #2b2d42;
-    background-image: url(remnant4.jpg);
+    background-image: url(images/remnant4.jpg);
     background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;
     color: #fefae0;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
 }
 #halo{
     background-color: #191c22;
     color: #5b8e7d;
+    font-size: 20px;
+    font-weight: bold;
 }
 #pokemon{
-    background-color: black;
-    background-image: url(pokemon2.jpg);
+    background-color: #191c22;
+    background-image: url(images/pokemon2.jpg);
     background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;
-    color: FAF9F6;
+    color: #FAF9F6;
     font-size: 20px;
 }
 
-.contentheading{
-    text-align: center;
-}
+.contentheading{text-align: center;}
+  
 @media screen and (min-width:800px) and (max-width: 1100px) {
     .container{
         display: grid;
